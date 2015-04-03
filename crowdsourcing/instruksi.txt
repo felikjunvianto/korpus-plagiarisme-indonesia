@@ -1,0 +1,11 @@
+Diberikan sekumpulan teks pada berkas 'simulated-task-[nomor].txt', baca dengan seksama dan kemudian
+tulis ulang ide dalam berkas tersebut dalam bahasa Anda sendiri. Anda diperbolehkan:
+
+- mengubah susunan paragraf,
+- mengubah urutan kalimat,
+- mengubah dialog aktif menjadi pasif atau sebaliknnya,
+- mengganti nama tokoh (asal konsisten sepanjang berkas),
+
+namun dengan batasan, ketika dibaca oleh penguji manusia, ide yang sama tetap dapat ditangkap.
+
+Selamat bekerja dan terima kasih atas kesediaannya telah sudi membantu saya :)
