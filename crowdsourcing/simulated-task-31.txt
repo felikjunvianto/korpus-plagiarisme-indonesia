@@ -1,0 +1,11 @@
+Susan mengernyit. Dia tahu dia tidak akan dengan cepat menemukan kunci sandi milik Hale. Menemukan
+sebuah kunci sandi yang tidak jelas di salah satu peranti keras Node 3 mirip dengan mencari sebuah
+kaus kaki di dalam kamar tidur seluas Texas. Pencarian dengan komputer hanya bisa berhasil jika Anda
+tahu apa yang Anda cari; sedangkan kunci sandi ini tidak jelas. Walaupun begitu, untungnya, Crypto
+selalu berurusan dengan banyak masalah yang tidak jelas. Susan dan beberapa orang lainnya berhasil
+mengembangkan sebuah proses rumit yang dikenal dengan "pencarian tidak beraturan." Pencarian itu
+pada dasarnya meminta komputer untuk mempelajari rangkaian karakter pada peranti kerasnya,
+membandingkan setiap rangkaian dengan sebuah kamus besar, dan menandai setiap rangkaian yang tidak
+masuk akal atau tidak jelas. Terus-menerus memperbarui parameter adalah proses yang sulit, tetapi
+hal itu mungkin dikerjakan.
+

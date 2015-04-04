@@ -8,4 +8,7 @@ tulis ulang ide dalam berkas tersebut dalam bahasa Anda sendiri. Anda diperboleh
 
 namun dengan batasan, ketika dibaca oleh penguji manusia, ide yang sama tetap dapat ditangkap.
 
+Bayangkan Anda sedang berusaha memplagiat ide yang sama namun menyajikannya dengan tersamar mungkin
+sehingga sulit dilacak oleh pembaca manusia.
+
 Selamat bekerja dan terima kasih atas kesediaannya telah sudi membantu saya :)
