@@ -1,4 +1,8 @@
+Yoana = 3
+Mario = 2
+Gozali = 2
+Iran = 2
+Anggi = 2
+Febry = 1
 Arinda & Isna = 1
 Sharon = 1
-Mario = 1
-Febry = 1

@@ -1,14 +1,25 @@
-Diberikan sekumpulan teks pada berkas 'simulated-task-[nomor].txt', baca dengan seksama dan kemudian
-tulis ulang ide dalam berkas tersebut dalam bahasa Anda sendiri. Anda diperbolehkan:
+Deskripsi Tugas
+---------------
+
+Anda diberikan sekumpulan teks pada berkas 'simulated-task-[nomor].txt'. Untuk setiap berkas, tulis
+ulang ide dalam berkas tersebut dalam bahasa Anda sendiri. Anda diperbolehkan untuk:
 
 - mengubah susunan paragraf,
 - mengubah urutan kalimat,
 - mengubah dialog aktif menjadi pasif atau sebaliknnya,
 - mengganti nama tokoh (asal konsisten sepanjang berkas),
+- dan lain lain
 
 namun dengan batasan, ketika dibaca oleh penguji manusia, ide yang sama tetap dapat ditangkap.
 
 Bayangkan Anda sedang berusaha memplagiat ide yang sama namun menyajikannya dengan tersamar mungkin
 sehingga sulit dilacak oleh pembaca manusia.
+
+Jika Anda mendapat lebih dari 1 berkas, kerjakan setiap berkas secara independen, bukan mencampur seluruh
+ide pada semua berkas yang diberikan ke dalam 1 berkas.
+
+Catatan: newline pada berkas yang diberikan adalah dalam format UNIX. Sehingga jika Anda membuka dengan
+text editor Windows, ada kemungkinan newline tidak terbaca dengan baik. Untuk hasil maksimal, berkas bisa
+Anda buka dengan Notepad++ atau Sublime Text.
 
 Selamat bekerja dan terima kasih atas kesediaannya telah sudi membantu saya :)
