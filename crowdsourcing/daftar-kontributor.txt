@@ -1,4 +1,5 @@
-Yoana = 3
+Yoana = 4
+Kak Mandala = 3
 Mario = 2
 Gozali = 2
 Iran = 2
