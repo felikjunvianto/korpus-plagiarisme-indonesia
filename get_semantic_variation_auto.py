@@ -11,15 +11,30 @@ import urllib2
 import sys
 from bs4 import BeautifulSoup
 
+global_dict = {}
+
 def get_semantic_data(word):
+	if word.lower() in global_dict.keys():
+		return global_dict[word.lower()]
+
 	url = 'http://www.persamaankata.com/search.php'
 	values = {'q' : word}
 
-	data = urllib.urlencode(values)
-	req = urllib2.Request(url, data)
-	response = urllib2.urlopen(req)
-	the_page = response.read()
-	soup = BeautifulSoup(the_page, "lxml")
+	sukses = False
+	soup = None
+
+	while not(sukses):
+		try:
+			time.sleep(1)
+			data = urllib.urlencode(values)
+			req = urllib2.Request(url, data)
+			response = urllib2.urlopen(req, timeout=3)
+
+			the_page = response.read()
+			soup = BeautifulSoup(the_page, "lxml")
+			sukses = True
+		except socket.timeout, e:
+			print "Timeout, Retrying..."
 
 	ret_dict = {}
 
@@ -29,13 +44,14 @@ def get_semantic_data(word):
 		
 		mini_soup = BeautifulSoup(unicode(thesaurus_div))
 		synset = []
-		# for thesaurus_desc in mini_soup.select(".word_thesaurus > a"):
-		# 	synset.append(thesaurus_desc.string)
+		limit = 1
 
-		first_line = mini_soup.select(".word_thesaurus")[0]
-		minier_soup = BeautifulSoup(unicode(first_line))
-		for thesaurus_desc in minier_soup.find_all("a"):
-			synset.append(thesaurus_desc.string)
+		for num_line, line in iterate(mini_soup.select(".word_thesaurus")):
+			if num_line >= limit: break
+	
+			minier_soup = BeautifulSoup(unicode(line))
+			for thesaurus_desc in minier_soup.find_all("a"):
+				synset.append(thesaurus_desc.string)
 
 		ret_dict[semantic_type] = synset
 

@@ -4,24 +4,39 @@ A Python script to get the word semantic variation from www.persamaankata.com. A
 is expected to replace once we know such thing exists
 '''
 
-import re
 import urllib
 import urllib2
+import socket
 import sys
+import time
 from bs4 import BeautifulSoup
 
+global_dict = {}
+
 def get_semantic_data(word):
+	if word.lower() in global_dict.keys():
+		return global_dict[word.lower()]
+
 	url = 'http://www.persamaankata.com/search.php'
 	values = {'q' : word}
 
-	data = urllib.urlencode(values)
-	req = urllib2.Request(url, data)
-	response = urllib2.urlopen(req)
-	the_page = response.read()
-	soup = BeautifulSoup(the_page, "lxml")
+	sukses = False
+	soup = None
+
+	while not(sukses):
+		try:
+			time.sleep(1)
+			data = urllib.urlencode(values)
+			req = urllib2.Request(url, data)
+			response = urllib2.urlopen(req, timeout=3)
+
+			the_page = response.read()
+			soup = BeautifulSoup(the_page, "lxml")
+			sukses = True
+		except socket.timeout, e:
+			print "Timeout, Retrying..."
 
 	ret_dict = {}
-
 	for thesaurus_div in soup.find_all("div", class_="thesaurus_group"):
 		semantic_type = unicode(thesaurus_div.h3)
 		semantic_type = semantic_type[4:semantic_type.find(" ")]
@@ -36,6 +51,7 @@ def get_semantic_data(word):
 			
 			ret_dict[semantic_type].append(synset)
 
+	global_dict[word.lower()] = ret_dict
 	return ret_dict
 
 def get_user_choice(semantic_var, ori_word):
