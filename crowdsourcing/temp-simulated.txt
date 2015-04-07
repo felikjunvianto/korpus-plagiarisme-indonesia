@@ -193,7 +193,7 @@ source_reference="source-document00026.txt"
 source_offset="9863"
 source_length="2024"
 given_file="simulated-task-38.txt"
-result_file="simulated-task-38.txt"
+result_file="simulated-task-38-result.txt"
 assignee="Gozali"
 used="no"
 
