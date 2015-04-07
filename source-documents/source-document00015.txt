@@ -14,7 +14,7 @@ diri.
 Para ahli dari Barat memandang Hinduisme sebagai peleburan atau sintesis dari berbagai tradisi dan
 kebudayaan di India, dengan pangkal yang beragam dan tanpa tokoh pendiri. Pangkal-pangkalnya
 meliputi Brahmanisme (agama Weda Kuno), agama- agama masa peradaban lembah Sungai Indus, dan tradisi
-lokal yang populer. Sintesis tersebut muncul sekitar 500–200 SM, dan tumbuh berdampingan dengan
+lokal yang populer. Sintesis tersebut muncul sekitar 500-200 SM, dan tumbuh berdampingan dengan
 agama Buddha hingga abad ke-8. Dari India Utara, "sintesis Hindu" tersebar ke selatan, hingga
 sebagian Asia Tenggara. Hal itu didukung oleh Sanskritisasi. Sejak abad ke-19, di bawah dominansi
 kolonialisme Barat serta Indologi (saat istilah "Hinduisme" mulai dipakai secara luas), agama Hindu
@@ -111,7 +111,7 @@ pada pokoknya bukanlah sektarian.
 Sebagai tanggapan atas kolonialisme dan orientalisme Barat, para pemuka dan ahli Hindu
 menginterpretasikan agamanya dalam suatu upaya yang disebut "modernisme Hindu" oleh orang Barat.
 Tokoh terkemuka dalam upaya tersebut adalah Swami Vivekananda, Sarvepalli Radhakrishnan, dan Mahatma
-Gandhi. Menurut Gavin Flood, Vivekanda (1863–1902) adalah tokoh penting dalam pengembangan pemahaman
+Gandhi. Menurut Gavin Flood, Vivekanda (1863-1902) adalah tokoh penting dalam pengembangan pemahaman
 diri umat Hindu masa kini dan telah merumuskan pandangan terhadap Hinduisme bagi orang Barat.
 Intisari dalam filsafatnya adalah gagasan bahwa "percikan dari Tuhan" berada dalam setiap makhluk
 hidup, sehingga seluruh umat manusia dapat mencapai persatuan dengan "sifat ilahi bawaan" tersebut,
@@ -178,7 +178,7 @@ penolakan" dari India Utara, serta kebudayaan mesolitik dan neolitik di India, s
 peradaban lembah sungai Indus, tradisi bangsa Dravida, serta tradisi dan agama lokal dari suku
 bangsa di India.
 
-Setelah periode Weda (antara 500–200 SM dan kr. 300 M, pada permulaan periode "Wiracarita dan
+Setelah periode Weda (antara 500-200 SM dan kr. 300 M, pada permulaan periode "Wiracarita dan
 Purana" atau "periode Praklasik"), "sintesis Hindu" mulai timbul (masa ketika dimasukkannya pengaruh
 Sramana dan Buddhisme), diiringi dengan kemunculan tradisi bhakti ke dalam balutan Brahmanisme
 melalui kitab- kitab Smerti. Sintesis ini muncul di bawah tekanan perkembangan Buddhisme dan
@@ -270,8 +270,8 @@ dimulai sebelum 1800-an. Menurut Michaels:
 Sebagai pencegahan terhadap supremasi Islam, dan sebagai bagian dari proses regionalisasi yang
 berkelanjutan, dua inovasi keagamaan berkembang dalam tubuh agama Hindu: pembentukan sekte-sekte
 serta historisasi yang mendahului nasionalisme pada masa berikutnya ... Para orang suci, dan
-kadangkala pemuka sekte yang militan, seperti pujangga Maratha [bernama] Tukaram (1609–1649) dan
-Ramdas (1608–1681), menyuarakan gagasan-gagasan yang mengagungkan kejayaan agama Hindu pada masa
+kadangkala pemuka sekte yang militan, seperti pujangga Maratha [bernama] Tukaram (1609-1649) dan
+Ramdas (1608-1681), menyuarakan gagasan-gagasan yang mengagungkan kejayaan agama Hindu pada masa
 lampau. Para brahmana juga menyusun tulisan-tulisan bersejarah yang kian bertambah, terutama eulogi
 dan riwayat tempat-tempat suci (mahatmya), atau mengobarkan semangat reflektif untuk menghimpun dan
 menggubah suatu koleksi kutipan yang ekstensif tentang berbagai subjek. Inklusivisme ini
@@ -470,13 +470,13 @@ sebagai Tuhan berkepribadian (Iswara), yang berbeda dengan dunia dan juga indivi
 kenyataannya, tiada perbedaan antara esensi individu yang sejati (jiwatman) dengan Brahman.
 Kebebasan dapat diperoleh dengan merasakan bahwa tiada perbedaan antara keduanya. Maka dari itu,
 jalan kebebasan ditempuh dengan pengetahuan (jñāna). Wisistadwaita: perguruan Wedanta yang dirintis
-oleh Ramanuja (1017–1137). Menurut perguruan ini, jiwatman adalah bagian dari Brahman, sehingga
+oleh Ramanuja (1017-1137). Menurut perguruan ini, jiwatman adalah bagian dari Brahman, sehingga
 mereka mirip, tetapi tidak sama. Menurut Wisistadwaita, Brahman dinyatakan memiliki atribut (Saguna-
 brahman), termasuk materi dan jiwa kesadaran individu. Brahman, materi, dan jiwa individu tidaklah
 sama tetapi merupakan entitas yang tidak terpisahkan. Perguruan ini menegaskan Bhakti atau
 pengabdian kepada Tuhan - yang dibayangkan sebagai Wisnu - sebagai jalan untuk mencapai kebebasan
 (moksa). Dalam perguruan ini, maya dipandang sebagai daya cipta dari Tuhan. Dwaita: perguruan
-Wedanta yang dirintis oleh Madhwacarya (1199–1278). Perguruan ini juga disebut sebagai tatvavādā –
+Wedanta yang dirintis oleh Madhwacarya (1199-1278). Perguruan ini juga disebut sebagai tatvavādā -
 "Filsafat Kenyataan". Perguruan ini menyamakan Tuhan dengan Brahman, sehingga tiada berbeda dengan
 Wisnu atau pun berbagai perwujudan-Nya seperti Kresna, Narasinga, Wenkateswara, dan lain-lain.
 Perguruan ini memandang Brahman, jiwa individu, dan materi sebagai entitas yang berbeda. Perguruan
@@ -607,7 +607,7 @@ diprakarsai oleh murid Ramakrishna, Swami Vivekananda, pada tanggal 1 Mei 1897. 
 pada masalah kemanusiaan seperti pemeliharaan kesehatan, bencana alam, kesejahteraan masyarakat
 desa, pendidikan, dan lain- lain. Misi gerakan ini berdasarkan konsep Karmayoga. Dalil-dalil yang
 digunakan adalah filsafat Wedanta. Masyarakat Internasional Kesadaran Krishna (The International
-Society for Krishna Consciousness – ISKCON): gerakan keagamaan berdasarkan tradisi Gaudiya Waisnawa.
+Society for Krishna Consciousness - ISKCON): gerakan keagamaan berdasarkan tradisi Gaudiya Waisnawa.
 Gerakan ini juga dikenal dengan nama "Gerakan Hare Krishna", didirikan pada tahun 1966 di New York
 City oleh A. C. Bhaktivedanta Swami Prabhupada. Ajarannya berpegang pada Bhagawadgita dan Srimad
 Bhagawatam. Gerakan ini didirikan untuk menyebarkan Bhaktiyoga dan memuja Tuhan dengan wujud Kresna.
@@ -771,7 +771,7 @@ utama Ramayana) dan Kresna (tokoh penting dalam Mahabharata).
 Karma dan reinkarnasi
 
 Karma diterjemahkan secara harfiah sebagai tindakan, kerja, perbuatan, dan dapat dideskripsikan
-sebagai "hukum moral sebab–akibat". Menurut hukum karma, nasib baik berasal dari tindakan baik
+sebagai "hukum moral sebab-akibat". Menurut hukum karma, nasib baik berasal dari tindakan baik
 terdahulu, dan nasib buruk berasal dari tindakan buruk terdahulu, yang merupakan suatu sistem aksi-
 reaksi dan membentuk suatu siklus reinkarnasi. Fenomena sebab-akibat tersebut tidak hanya berlaku
 bagi dunia material, namun juga terhadap pikiran, perkataan, tindakan, dan tindakan yang dilakukan
@@ -945,7 +945,7 @@ Sejarah
 
 Periodisasi
 
-James Mill (1773–1836), dalam bukunya The History of British India (1817), membagi sejarah India
+James Mill (1773-1836), dalam bukunya The History of British India (1817), membagi sejarah India
 menjadi tiga tahap, yaitu peradaban Hindu, Muslim, dan Britania. Periodisasi ini menuai kritik
 karena kesalahpahaman yang ditimbulkannya. Periodisasi lainnya memilah-milah menjadi periode kuno,
 klasik, pertengahan, dan modern. Smart dan Michaels tampaknya mengikuti periodisasi menurut Mill,
@@ -967,7 +967,7 @@ berkembang pada periode tersebut.
 
 Agama-Agama Pra-Weda
 
-Ras manusia pertama yang menduduki India (kr. 40.000–60.000 tahun yang lalu, saat periode
+Ras manusia pertama yang menduduki India (kr. 40.000-60.000 tahun yang lalu, saat periode
 Paleolitik) adalah Australoid yang mungkin memiliki hubungan dengan penduduk asli Australia. Ada
 dugaan bahwa ras tersebut hampir punah atau terdesak oleh gelombang migrasi pada masa berikutnya.
 
@@ -980,7 +980,7 @@ dari zaman mesolitik dan neolitik. Beberapa agama suku di India masih bertahan, 
 agama Hindu, namun tidak harus dianggap bahwa ada banyak kemiripan antara masyarakat suku pada zaman
 prasejarah dengan masa kini.
 
-Menurut antropolog Gregory Possehl, peradaban lembah sungai Indus (2600–1900 SM) mengandung titik
+Menurut antropolog Gregory Possehl, peradaban lembah sungai Indus (2600-1900 SM) mengandung titik
 pangkal yang logis, atau mungkin arbitrer, bagi beberapa aspek pada tradisi Hindu di kemudian hari.
 Agama pada masa tersebut mengandung pemujaan kepada Dewa Yang Mahakuasa, yang dibandingkan oleh
 beberapa ahli (terutama John Marshall) sebagai proto-Siwa, dan mungkin sesosok Ibu Dewi, yang
@@ -1000,7 +1000,7 @@ Utara setelah kr. 1100 SM dan menjadi pastoralis.
 Meskipun kepercayaan dan praktik pada masa Hinduisme Praklasik boleh jadi berasal dari bahan-bahan
 agama Proto-Indo- Eropa (yang masih hipotesis), sastra yang mendasari tradisi pada masa itu adalah
 Weda Samhita, sehingga periode tersebut dinamai demikian. Kitab tertua di antara sastra Weda
-tersebut adalah Regweda, yang diperkirakan telah disusun pada periode 1700–1100 SM. Sastra Weda
+tersebut adalah Regweda, yang diperkirakan telah disusun pada periode 1700-1100 SM. Sastra Weda
 memusatkan pemujaan kepada para dewa seperti Indra, Baruna, dan Agni, serta melangsungkan upacara
 Soma. Kurban dengan api, yang disebut yadnya (yajña) dilaksanakan dengan merapalkan mantra-mantra
 Weda. Sastra Weda dikodifikasi ketika bangsa Indo-Arya mulai menduduki dataran India Utara yang
@@ -1010,7 +1010,7 @@ penduduk yang lebih dahulu bermukim di dataran subur tersebut. Mereka dimasukkan
 warna menurut bangsa Arya, dengan otoritas politik dan keagamaan berada di tangan kaum brahmana dan
 kesatria.
 
-Selama Periode Weda Awal (kr. 1500–1100 SM), suku-suku penganut Weda merupakan suku penggembala,
+Selama Periode Weda Awal (kr. 1500-1100 SM), suku-suku penganut Weda merupakan suku penggembala,
 berkelana di sekitar India sebelah barat laut. Setelah 1100 SM, seiring ditemukannya besi, suku-suku
 penganut Weda berpindah ke dataran India Utara sebelah barat, dan mengadaptasi gaya hidup agraris.
 Bentuk-bentuk wilayah berdaulat yang belum sempurna mulai muncul, dan yang paling menonjol atau
@@ -1044,13 +1044,13 @@ kebudayaan Indo-Arya dengan Harrapa.
 Reformisme Asketis
 
 Peningkatan urbanisasi di India pada abad ke-7 dan ke-6 SM telah mendukung terjadinya gerakan
-asketis atau Sramana yang menentang fanatisme terhadap berbagai upacara. Mahavira (kr. 549–477 SM,
-pemuka Jainisme) dan Buddha Gautama (kr. 563–483 SM, penggagas tradisi Buddhisme) adalah tokoh-tokoh
+asketis atau Sramana yang menentang fanatisme terhadap berbagai upacara. Mahavira (kr. 549-477 SM,
+pemuka Jainisme) dan Buddha Gautama (kr. 563-483 SM, penggagas tradisi Buddhisme) adalah tokoh-tokoh
 terkemuka dalam gerakan tersebut. Menurut Heinrich Zimmer, Jainisme dan Buddhisme adalah bagian dari
 warisan kebudayaan pra-Weda, yang juga meliputi Samkhya dan Yoga:
 
 Jainisme tidak berasal dari sumber-sumber [budaya] Brahman-Arya, tetapi mencerminkan kosmologi dan
-antropologi masyarakat kuno pra-Arya golongan atas [yang tinggal] di India bagian timur laut –
+antropologi masyarakat kuno pra-Arya golongan atas [yang tinggal] di India bagian timur laut -
 dengan berpangkal pada dasar-dasar yang sama tentang spekulasi metafisis kuno seperti Yoga, Sankhya,
 dan Buddhisme, yaitu ajaran-ajaran India lainnya yang tidak berbasis Weda.
 
@@ -1059,7 +1059,7 @@ reinkarnasi), konsep samsara, dan konsep pencarian kebebasan (dari reinkarnasi t
 menjadi karakteristik Hinduisme.
 
 James B. Pratt dalam bukunya The Pilgrimage of Buddhism and a Buddhist Pilgrimage menulis bahwa
-Oldenberg (1854–1920), Neumann (1865–1915), dan Radhakrishnan (1888–1975) percaya bahwa Tripitaka
+Oldenberg (1854-1920), Neumann (1865-1915), dan Radhakrishnan (1888-1975) percaya bahwa Tripitaka
 Buddhis mendapat pengaruh dari kitab-kitab Upanishad, sedangkan la Vallee Poussin menyatakan
 ketiadaan pengaruh apa pun, dan ahli lainnya menegaskan bahwa pada bagian-bagian tertentu, Sang
 Buddha menyatakan antitesis secara langsung kepada Upanishad.
@@ -1088,7 +1088,7 @@ agama pribumi yang ada, kesetiaan terhadap kewenangan sastra Weda telah memberik
 persatuan yang tipis - namun begitu signifikan - di antara kemajemukan dewa-dewi dan praktik
 keagamaan [yang ada]. Menurut Larson, para brahmana menanggapinya dengan asimilasi dan konsolidasi.
 Hal tersebut tercerminkan dalam pustaka Smerti yang mulai disusun pada periode itu. Kitab-kitab
-Smerti dari periode 200 SM–100 M mempermaklumkan kewenangan Weda, sehingga pengakuan terhadap
+Smerti dari periode 200 SM-100 M mempermaklumkan kewenangan Weda, sehingga pengakuan terhadap
 kewenangan Weda menjadi kriteria utama untuk membedakan Hinduisme dengan aliran heterodoks yang
 menolak Weda. Sebagian besar gagasan dasar dan praktik Hinduisme Klasik berasal dari pustaka Smerti,
 yang kemudian menjadi inspirasi dasar bagi kebanyakan umat Hindu.
@@ -1119,7 +1119,7 @@ sebelumnya yang mengacu pada Dharmasastra dan Smerti.
 
 Gerakan Bhakti muncul pada periode ini. Gerakan Bhakti merupakan perkembangan tradisi bhakti yang
 tumbuh sangat cepat, bermula di Tamil Nadu (India Selatan). Para Nayanar dari aliran Saiwa (abad
-ke-4 – ke-10) serta para Alwar dari aliran Waisnawa (abad ke-3 – ke-9) menyebarkan puisi dan tradisi
+ke-4 - ke-10) serta para Alwar dari aliran Waisnawa (abad ke-3 - ke-9) menyebarkan puisi dan tradisi
 bhakti ke berbagai penjuru India dari abad ke-12 hingga ke-18.
 
 Menurut P.S. Sharma, periode Gupta dan Harsha membentuk - dari segi intelektual - kurun waktu paling
@@ -1261,7 +1261,7 @@ Mobilitas dan fleksibitas dalam warna menampik dugaan diskriminasi sosial dalam 
 sebagaimana yang dikemukakan oleh beberapa sosiolog, meskipun beberapa ahli tidak sependapat. Para
 ahli memperdebatkan apakah sistem kasta merupakan bagian dari Hinduisme yang diatur oleh kitab suci,
 ataukah sekadar adat masyarakat. Berbagai ahli berpendapat bahwa sistem kasta dibangun oleh rezim
-kolonial Britania. Menurut guru rohani Hindu Sri Ramakrishna (1836–1886):
+kolonial Britania. Menurut guru rohani Hindu Sri Ramakrishna (1836-1886):
 
 Para pencinta Tuhan tidak tergolong dalam kasta tertentu ... Seorang brahmana tanpa cinta pada Tuhan
 bukanlah brahmana lagi. Dan seorang paria tanpa cinta pada Tuhan bukanlah paria lagi. Melalui bhakti
@@ -1302,7 +1302,7 @@ seruan, panggilan, atau doa yang membantu umat Hindu agar dapat memusatkan pikir
 dewa tertentu, melalui kata- kata, suara, dan cara pelantunan. Pada pagi hari, di tepi sungai yang
 dikeramatkan, banyak umat Hindu yang melaksanakan upacara pembersihan sambil melantunkan Gayatri
 Mantra atau mantra-mantra Mahamrityunjaya. Wiracarita Mahabharata mengagungkan japa (lagu-lagu
-pujaan) sebagai kewajiban terbesar pada masa Kaliyuga (zaman sekarang, 3102 SM–kini). Banyak aliran
+pujaan) sebagai kewajiban terbesar pada masa Kaliyuga (zaman sekarang, 3102 SM-kini). Banyak aliran
 yang mengadopsi japa sebagai praktik spiritual yang utama.
 
 Praktik spiritual Hindu yang cukup populer adalah Yoga. Yoga merupakan ajaran Hindu yang gunanya
