@@ -2,6 +2,7 @@ Yoana = 4
 Kak Mandala = 3
 Kak Rama = 3
 Kak Iis = 3
+Kak Raja = 2
 Kenneth = 2
 Anjar = 2
 Mario = 2
