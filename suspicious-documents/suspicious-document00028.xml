@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document reference="suspicious-document00028.txt">
+	<feature name="plagiarism" type="simulated" this_offset="1125" this_length="571" source_reference="source-document00025.txt" source_offset="40199" source_length="1334"/>
+	<feature name="plagiarism" type="simulated" this_offset="6075" this_length="4825" source_reference="source-document00021.txt" source_offset="27973" source_length="5321"/>
+	<feature name="plagiarism" type="simulated" this_offset="14708" this_length="2389" source_reference="source-document00027.txt" source_offset="25140" source_length="3648"/>
+	<feature name="plagiarism" type="simulated" this_offset="20758" this_length="1656" source_reference="source-document00016.txt" source_offset="9493" source_length="2056"/>
+	<feature name="plagiarism" type="simulated" this_offset="24854" this_length="614" source_reference="source-document00003.txt" source_offset="262" source_length="575"/>
+	<featue name="plagiarism" type="artificial" this_offset="28043" this_length="795" source_reference="source-document-00012.txt" source_offset="5699" source_length="794"/>
+</document>
