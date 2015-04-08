@@ -8,7 +8,9 @@ import random
 import re
 import urllib
 import urllib2
+import socket
 import sys
+import time
 from bs4 import BeautifulSoup
 
 global_dict = {}
@@ -46,7 +48,7 @@ def get_semantic_data(word):
 		synset = []
 		limit = 1
 
-		for num_line, line in iterate(mini_soup.select(".word_thesaurus")):
+		for num_line, line in enumerate(mini_soup.select(".word_thesaurus")):
 			if num_line >= limit: break
 	
 			minier_soup = BeautifulSoup(unicode(line))
