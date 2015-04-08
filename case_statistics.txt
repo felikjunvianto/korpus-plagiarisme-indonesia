@@ -1,0 +1,8 @@
+Source documents 				30
+Suspicious documents		14
+	- with plagiarism 		 9
+	- without plagiarism 	 5
+
+Plagiarism cases				50
+	- simulated						19
+	- artificial					31
