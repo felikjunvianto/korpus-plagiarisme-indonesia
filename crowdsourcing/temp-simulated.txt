@@ -1,11 +1,3 @@
-source_reference="source-document00015.txt"
-source_offset="21293"
-source_length="11385"
-given_file="simulated-task-13.txt"
-result_file="simulated-task-13-result.txt"
-assignee="Felik"
-used="yes"
-
 source_reference="source-document00002.txt"
 source_offset="1290"
 source_length="1587"
