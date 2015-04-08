@@ -47,7 +47,7 @@ def get_semantic_data(word):
 			synset = []
 			liner_soup = BeautifulSoup(unicode(grouped_lines))
 			for thesaurus_desc in liner_soup.select("a"):
-				synset.append(thesaurus_desc.string.rstrip())
+				synset.extend(thesaurus_desc.string.split())
 			
 			ret_dict[semantic_type].append(synset)
 

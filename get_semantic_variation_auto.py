@@ -51,7 +51,8 @@ def get_semantic_data(word):
 	
 			minier_soup = BeautifulSoup(unicode(line))
 			for thesaurus_desc in minier_soup.find_all("a"):
-				synset.append(thesaurus_desc.string)
+
+				synset.extend(thesaurus_desc.string.split())
 
 		ret_dict[semantic_type] = synset
 
