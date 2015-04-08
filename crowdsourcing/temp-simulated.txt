@@ -4,7 +4,7 @@ source_length="11385"
 given_file="simulated-task-13.txt"
 result_file="simulated-task-13-result.txt"
 assignee="Felik"
-used="no"
+used="yes"
 
 source_reference="source-document00002.txt"
 source_offset="1290"
