@@ -1,9 +1,0 @@
-Susan terdiam. Kenyataan bahwa kunci sandi milik Hale sulit ditemukan sudah diketahuinya. Pencarian
-kunci sandi di sebuah hardware Node 3 dapat diibaratkan sebagai pencarian sebuah kaus kaki di tempat
-seluas Texas. Komputer dapat membantu pencarian ini, namun apa yang ingin dicari tidak secara jelas
-diketahui. Meskipun begitu, Crypto untungnya selalu berhubungan dengan hal yang tidak pasti. Susan
-dan beberapa orang lain telah mengembangkan suatu proses yang dikenal sebagai "pencarian tidak
-beraturan". Proses membutuhkan bantuan komputer untuk mempelajari rangkaian karakter pada hardware
-nya, dan kemudian rangkaian tersebut dibandingkan dengan kamus besar untuk menandai rangkaian yang
-tidak jelas. Memang sulit memperbarui parameter secara terus menerus, tapi bukan berarti hal
-tersebut tidak mungkin dilakukan.
