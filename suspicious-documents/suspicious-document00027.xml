@@ -4,4 +4,5 @@
 	<feature name="plagiarism" type="artificial" this_offset="11310" thiS_length="556" source_reference="source-document00024.txt" source_offset="37611" source_length="554"/>
 	<feature name="plagiarism" type="artificial" this_offset="13307" this_length="1027" source_reference="source-document00024.txt" source_offset="25714" source_length="955"/>
 	<feature name="plagiarism" type="artificial" this_offset="14564" this_length="1274" source_reference="source-document00024.txt" source_offset="10542" source_length="1577"/>
+	<feature name="plagiarism" type="artificial" this_offset="17062" this_length="585" source_reference="source-document00024.txt" source_offset="0" source_length="585"/>
 </document>
