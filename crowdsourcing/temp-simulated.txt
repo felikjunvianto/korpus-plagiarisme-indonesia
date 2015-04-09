@@ -1,7 +1,0 @@
-source_reference="source-document00002.txt"
-source_offset="1290"
-source_length="1587"
-given_file="simulated-task-32.txt"
-result_file="simulated-task-32-result.txt"
-assignee="Kak Iis"
-used="yes"
