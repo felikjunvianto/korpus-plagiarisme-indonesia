@@ -1,0 +1,5 @@
+Sumber utama korpus:
+- terjemahan artikel PAN CLEF
+- blog-blog berbahasa Indonesia
+- Korpus lain (artikel Kompas & review film)
+- novel Indonesia (lokal & terjemahan)

@@ -1,0 +1,9 @@
+ \n -> \n
+ ([\.,:?!)]) -> $1
+[“”] -> "
+[‘’] -> '
+[—–] -> -
+… -> ...
+
+Kalo ada tanda " atau ' di awal kalimat, ubah ke alfabet
+yang ga dipake. Misal Z
