@@ -3,6 +3,6 @@ Suspicious documents		35
 	- with plagiarism 		20
 	- without plagiarism 	15
 
-Plagiarism cases				95
+Plagiarism cases				94
 	- simulated						45
-	- artificial					50
+	- artificial					49
