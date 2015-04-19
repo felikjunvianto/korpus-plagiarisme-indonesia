@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document reference="suspicious-document00005.txt">
-	<feature name="plagiarism" type="artificial" this_offset="180" this_length="1224" source_reference="source-document21.txt" source_offset="10169" source_length="1232"/>
-	<feature name="plagiarism" type="artificial" this_offset="5625" this_length="729" source_reference="source-document21.txt" source_offset="84473" source_length="702"/>
-	<feature name="plagiarism" type="artificial" this_offset="1538" this_length="2370" source_reference="source-document21.txt" source_offset="79664" source_length="2368"/>
+	<feature name="plagiarism" type="artificial" this_offset="180" this_length="1224" source_reference="source-document00021.txt" source_offset="10169" source_length="1232"/>
+	<feature name="plagiarism" type="artificial" this_offset="5625" this_length="729" source_reference="source-document00021.txt" source_offset="84473" source_length="702"/>
+	<feature name="plagiarism" type="artificial" this_offset="1538" this_length="2370" source_reference="source-document00021.txt" source_offset="79664" source_length="2368"/>
 	
 </document>
