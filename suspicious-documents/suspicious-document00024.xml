@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document reference="suspicious-document00024.txt">
-	<feature name="plagiarism" this_offset="5723" this_length="1995" source_reference="source-document00019.txt" source_offset="12820" source_length="1970"/>
-	<feature name="plagiarism" this_offset="12902" this_length="437" source_reference="source-document00019.txt" source_offset="18614" source_length="437"/>
-	<feature name="plagiarism" this_offset="18809" this_length="2023" source_reference="source-document00019.txt" source_offset="22570" source_length="2022"/>
+	<feature name="plagiarism" type="artificial" this_offset="5723" this_length="1995" source_reference="source-document00019.txt" source_offset="12820" source_length="1970"/>
+	<feature name="plagiarism" type="artificial" this_offset="12902" this_length="437" source_reference="source-document00019.txt" source_offset="18614" source_length="437"/>
+	<feature name="plagiarism" type="artificial" this_offset="18809" this_length="2023" source_reference="source-document00019.txt" source_offset="22570" source_length="2022"/>
 </document>
