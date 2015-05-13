@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document reference="suspicious-document00022.txt">
-	<feature name="plagiarism" type="artificial" this_offset="3571" this_length="1501" source_reference="source-document00012.txt" source_offset="984" source_length="1460"/>
+	<feature name="plagiarism" type="artificial" obfuscation="semantic-variation" this_offset="3571" this_length="1501" source_reference="source-document00012.txt" source_offset="984" source_length="1460"/>
 	<feature name="plagiarism" type="simulated" this_offset="9943" this_length="1270" source_reference="source-document00024.txt" source_offset="17202" source_length="2583"/>
 </document>
