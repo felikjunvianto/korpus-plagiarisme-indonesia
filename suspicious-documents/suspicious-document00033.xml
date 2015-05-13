@@ -2,7 +2,7 @@
 <document reference="suspicious-document00033.txt">
 	<feature name="plagiarism" type="simulated" this_offset="1515" this_length="997" source_reference="source-document00006.txt" source_offset="1052" source_length="1949"/>
 	<feature name="plagiarism" type="simulated" this_offset="3428" this_length="420" source_reference="source-document00021.txt" source_offset="47157" source_length="386"/>
-	<feature name="plagiarism" type="artificial" this_offset="4455" this_length="550" source_reference="source-document00021.txt" source_offset="109669" source_length="549"/>
-	<feature name="plagiarism" type="artificial" this_offset="9859" this_length="1459" source_reference="source-document00022.txt" source_offset="35318" source_length="1408"/>
-	<feature name="plagiarism" type="artificial" this_offset="12633" this_length="361" source_reference="source-document00005.txt" source_offset="6798" source_length="361"/>
+	<feature name="plagiarism" type="artificial" obfuscation="random-shuffling" this_offset="4455" this_length="550" source_reference="source-document00021.txt" source_offset="109669" source_length="549"/>
+	<feature name="plagiarism" type="artificial" obfuscation="semantic-variation" this_offset="9859" this_length="1459" source_reference="source-document00022.txt" source_offset="35318" source_length="1408"/>
+	<feature name="plagiarism" type="artificial" obfuscation="none" this_offset="12633" this_length="361" source_reference="source-document00005.txt" source_offset="6798" source_length="361"/>
 </document>
