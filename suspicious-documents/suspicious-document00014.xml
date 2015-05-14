@@ -2,15 +2,15 @@
 <document reference="suspicious-document00014.txt">
 	<feature name="plagiarism" type="simulated" this_offset="1331" this_length="1117" source_reference="source-document00022.txt" source_offset="58120" source_length="2237"/>
 	<feature name="plagiarism" type="simulated" this_offset="3153" this_length="347" source_reference="source-document00026.txt" source_offset="100621" source_length="365"/>
-	<feature name="plagiarism" type="artificial" this_offset="4169" this_length="418" source_reference="source-document00002.txt" source_offset="2878" source_length="416"/>
-	<feature name="plagiarism" type="artificial" this_offset="5583" this_length="1777" source_reference="source-document00027.txt" source_offset="23355" source_length="1776"/>
-	<feature name="plagiarism" type="artificial" this_offset="7796" this_length="337" source_reference="source-document00027.txt" source_offset="16797" source_length="355"/>
-	<feature name="plagiarism" type="artificial" this_offset="9026" this_length="705" source_reference="source-document00011.txt" source_offset="3774" source_length="677"/>
-	<feature name="plagiarism" type="artificial" this_offset="9732" this_length="350" source_reference="source-document00022.txt" source_offset="67813" source_length="350"/>
-	<feature name="plagiarism" type="artificial" this_offset="16341" this_length="669" source_reference="source-document00013.txt" source_offset="3679" source_length="638"/>
-	<feature name="plagiarism" type="artificial" this_offset="18988" this_length="904" source_reference="source-document00014.txt" source_offset="5096" source_length="895"/>
-	<feature name="plagiarism" type="artificial" this_offset="22899" this_length="1294" source_reference="source-document00005.txt" source_offset="4726" source_length="1293"/>
-	<feature name="plagiarism" type="artificial" this_offset="28823" this_length="889" source_reference="source-document00017.txt" source_offset="20799" source_length="899"/>
+	<feature name="plagiarism" type="artificial" obfuscation="none" this_offset="4169" this_length="418" source_reference="source-document00002.txt" source_offset="2878" source_length="416"/>
+	<feature name="plagiarism" type="artificial" obfuscation="none" this_offset="5583" this_length="1777" source_reference="source-document00027.txt" source_offset="23355" source_length="1776"/>
+	<feature name="plagiarism" type="artificial" obfuscation="random-shuffling" this_offset="7796" this_length="336" source_reference="source-document00027.txt" source_offset="16797" source_length="355"/>
+	<feature name="plagiarism" type="artificial" obfuscation="semantic-variation" this_offset="9026" this_length="705" source_reference="source-document00011.txt" source_offset="3774" source_length="677"/>
+	<feature name="plagiarism" type="artificial" obfuscation="none" this_offset="9732" this_length="350" source_reference="source-document00022.txt" source_offset="67813" source_length="350"/>
+	<feature name="plagiarism" type="artificial" obfuscation="semantic-variation" this_offset="16341" this_length="668" source_reference="source-document00013.txt" source_offset="3679" source_length="638"/>
+	<feature name="plagiarism" type="artificial" obfuscation="random-shuffling" this_offset="18988" this_length="904" source_reference="source-document00014.txt" source_offset="5096" source_length="895"/>
+	<feature name="plagiarism" type="artificial" obfuscation="random-shuffling" this_offset="22899" this_length="1294" source_reference="source-document00005.txt" source_offset="4726" source_length="1293"/>
+	<feature name="plagiarism" type="artificial" obfuscation="semantic-variation" this_offset="28823" this_length="889" source_reference="source-document00017.txt" source_offset="20799" source_length="899"/>
 	<feature name="plagiarism" type="simulated" this_offset="31808" this_length="1183" source_reference="source-document00014.txt" source_offset="1598" source_length="1965"/>
 	<feature name="plagiarism" type="simulated" this_offset="42836" this_length="812" source_reference="source-document00001.txt" source_offset="143" source_length="714"/>
 </document>
