@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document reference="suspicious-document00007.txt">
 	<feature name="plagiarism" type="simulated" this_offset="461" this_length="384" source_reference="source-document00009.txt" source_offset="1262" source_length="381"/>
-	<feature name="plagiarism" type="artificial" this_offset="1379" this_length="3827" source_reference="source-document00018.txt" source_offset="18087" source_length="3990"/>
-	<feature name="plagiarism" type="artificial" this_offset="5207" this_length="4459" source_reference="source-document00018.txt" source_offset="44679" source_length="4325"/>
-	<feature name="plagiarism" type="artificial" this_offset="12574" this_length="1148" source_reference="source-document00018.txt" source_offset="65752" source_length="1084"/>
-	<feature name="plagiarism" type="artificial" this_offset="18271" this_length="1253" source_reference="source-document00018.txt" source_offset="5522" source_length="1250"/>
+	<feature name="plagiarism" type="artificial" obfuscation="random-shuffling" this_offset="1379" this_length="3827" source_reference="source-document00018.txt" source_offset="18087" source_length="3990"/>
+	<feature name="plagiarism" type="artificial" obfuscation="semantic-variation" this_offset="5207" this_length="4459" source_reference="source-document00018.txt" source_offset="44679" source_length="4325"/>
+	<feature name="plagiarism" type="artificial" obfuscation="semantic-variation" this_offset="12574" this_length="1148" source_reference="source-document00018.txt" source_offset="65752" source_length="1084"/>
+	<feature name="plagiarism" type="artificial" obfuscation="pos-preserving" this_offset="18271" this_length="1253" source_reference="source-document00018.txt" source_offset="5522" source_length="1250"/>
 	<feature name="plagiarism" type="simulated" this_offset="20500" this_length="590" source_reference="source-document00027.txt" source_offset="41733" source_length="735"/>
-	<feature name="plagiarism" type="artificial" this_offset="23408" this_length="1317" source_reference="source-document00018.txt" source_offset="11142" source_length="1177"/>
+	<feature name="plagiarism" type="artificial" obfuscation="random-shuffling" this_offset="23410" this_length="1317" source_reference="source-document00018.txt" source_offset="11142" source_length="1177"/>
 </document>
