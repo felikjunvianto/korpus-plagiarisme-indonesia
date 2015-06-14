@@ -1,8 +1,12 @@
-Source documents        30
-Suspicious documents    35
-	- with plagiarism     20
-	- without plagiarism  15
+Source documents             30
+Suspicious documents         35
+	- with plagiarism        20
+	- without plagiarism     15
 
-Plagiarism cases        94
-	- simulated           45
-	- artificial          49
+Plagiarism cases             94
+	- simulated              45
+	- artificial             49
+		- no obfuscation     11
+		- random-shuffling   14
+		- semantic-variation 18
+		- pos-preserving      6
