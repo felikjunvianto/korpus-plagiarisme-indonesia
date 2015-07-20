@@ -1,7 +1,7 @@
 # README #
 
-* [Versi Bahasa Indonesia](#versi-bahasa-indonesia)
-* [English Version](#english-version)
+* [Versi Bahasa Indonesia](#markdown-header-versi-bahasa-indonesia)
+* [English Version](#markdown-header-english-version)
 
 Lorem ipsum dolor sit amet, est ex nulla aliquam nominati. Ne vero possim mea. Ignota fabulas postulant sea id, justo fugit has ex, ad eam equidem delicata. His esse libris an. Tollit partiendo referrentur ea quo, labores accusata ne his.
 
