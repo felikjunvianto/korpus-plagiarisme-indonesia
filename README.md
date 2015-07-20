@@ -1,5 +1,16 @@
 # README #
 
+* [Versi Bahasa Indonesia](#versi-bahasa-indonesia)
+* [English Version](#english-version)
+
+# Versi Bahasa Indonesia #
+
+# English Version #
+
+-----------------------------------------------------------------------------------------------
+
+# README #
+
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
