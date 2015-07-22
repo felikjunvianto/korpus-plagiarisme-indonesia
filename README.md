@@ -7,6 +7,10 @@
 
 ## Perkenalan ##
 
+Korpus ini terdiri dari kumpulan dokumen dalam Bahasa Indonesia yang telah disisipkan beberapa kasus plagiarisme buatan. Korpus ini disusun dan digunakan sebagai bahan pengujian dalam tugas akhir saya dengan judul ["Perbaikan Komponen Candidate Retrieval untuk Meningkatkan Kinerja Metode Deteksi Plagiarisme Eksternal pada Dokumen Berbahasa Indonesia"](LINK LONTAR HERE).
+
+Korpus ini disusun dengan mengikuti struktur korpus kompetisi deteksi plagiarisme [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). Kasus plagiarisme buatan disusun dengan mengikuti pedoman yang dijabarkan dalam publikasi ["An Evaluation Framework for Plagiarisme Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) oleh Potthast et. al (2011).
+
 ## Panduan Penggunaan ##
 
 ## Lisensi ##
