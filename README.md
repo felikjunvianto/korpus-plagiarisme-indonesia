@@ -11,6 +11,8 @@ Korpus ini terdiri dari kumpulan dokumen dalam Bahasa Indonesia yang telah disis
 
 Korpus ini disusun dengan mengikuti struktur korpus kompetisi deteksi plagiarisme [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). Kasus plagiarisme buatan disusun dengan mengikuti pedoman yang dijabarkan dalam publikasi ["An Evaluation Framework for Plagiarisme Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) oleh Potthast et. al (2011).
 
+TODO: statistik korpus
+
 ## Panduan Penggunaan ##
 
 ## Lisensi ##
