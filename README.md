@@ -59,7 +59,7 @@ Statistik dari korpus plagiarisme bahasa Indonesia ini adalah sebagai berikut.
 
 ## Panduan Penggunaan ##
 
-Untuk menggunakan korpus ini sebagai kasus uji metode deteksi plagiarisme yang sedang Anda kembangkan, Anda cukup meng-[*clone*](https://help.github.com/articles/which-remote-url-should-i-use/) atau [mengunduh](https://github.com/felikjunvianto/korpus-plagiarisme-indonesia/archive/master.zip) repositori ini ke komputer pribadi Anda. Anda kemudian akan mendapati isi dari korpus ini, yaitu dua buah direktori sebagai berikut.
+Untuk menggunakan korpus ini sebagai kasus uji metode deteksi plagiarisme yang sedang Anda kembangkan, Anda cukup meng-[*clone*](https://help.github.com/articles/which-remote-url-should-i-use/) atau [mengunduh](https://github.com/felikjunvianto/korpus-plagiarisme-indonesia/archive/master.zip) repositori ini ke komputer Anda. Anda kemudian akan mendapati isi dari korpus ini, yaitu dua buah direktori sebagai berikut.
 
 - `source-documents/`: berisi dokumen-dokumen yang **dicurigai diplagiat**. Semua kasus plagiarisme buatan dalam korpus ini dijamin memplagiat potongan teks dalam dokumen yang terdapat pada direktori ini.
 - `suspicious-documents/`: direktori berisi dokumen-dokumen yang **dicurigai memplagiat** atau **mengandung bagian teks yang memplagiat**.
@@ -180,7 +180,70 @@ Statistics of this plagiarism corpus in bahasa Indonesia are as follows.
 
 ## How to Use ##
 
-[Under Construction]
+To use this corpus as test cases for plagiarism detection method you are currently developing, you only need to [*clone*](https://help.github.com/articles/which-remote-url-should-i-use/) or [download](https://github.com/felikjunvianto/korpus-plagiarisme-indonesia/archive/master.zip) this repository to your computer. You then will find the content of this corpus, which are two directories as follow.
+
+- `source-documents/`: contains documents which are **suspected to be plagiarized**. All artificial plagiarism cases in this corpus are guaranteed to plagiarize passage in document from this directory.
+- `suspicious-documents/`: contains documents which are **suspected to plagiarize** or **containing plagiarizing text**.
+
+For every suspicious document in `suspicious-documents/` directory, a "answer key" has been provided in XML format, containing information regarding which part of text that is plagiarizing (if any) along with which part of text it plagiarized. For example, the following is snippet of of file `suspicious-document-00014.xml` (answer key for suspicious document `suspicious-document-00014.txt`):
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<document reference="suspicious-document00014.txt">
+	<feature name="plagiarism" type="simulated" this_offset="1331" this_length="1117" source_reference="source-document00022.txt" source_offset="58120" source_length="2237"/>
+	<feature name="plagiarism" type="simulated" this_offset="3153" this_length="347" source_reference="source-document00026.txt" source_offset="100621" source_length="365"/>
+...
+```
+
+Every `<feature>` in file `suspicious-document-00014.xml` represents a plagiarism case. Location of the plagiarizing passage and plagiarized passage can be derived from following `<feature>` attributes:
+
+- `this_offset`: represents the first-character position of plagiarizing passage in suspicious document, counted from the start of the document (*zero-based*).
+- `this_length`: represents the length of the plagiarizing passage for this plagiarism case.
+- `source_reference`: represents the name of the plagiarized source document for this plagiarism case.
+- `source_offset`: represents the first-character position of plagiarized passage in source document, counted from the start of the document (*zero-based*).
+- `source_length`: represents the length of plagiarized passage for this plagiarism case.
+
+Your plagiarism detection method must output the detection results in XML-format files which must be valid in respect of following [XML schema](http://www.uni-weimar.de/medien/webis/corpora/corpus-pan-pc-09/document.xsd), or in other words, quoting explanation from [PAN 2011 external plagiarism detection competition page](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html):
+
+> For each suspicious document `suspicious-documentXYZ.txt` found in the evaluation corpora, your plagiarism detector shall output an XML file `suspicious-documentXYZ.xml` which contains meta information about all plagiarism cases detected within:
+>
+>```xml
+><document reference="suspicious-documentXYZ.txt">
+>  <feature name="detected-plagiarism"
+>           this_offset="5"
+>           this_length="1000"
+>           source_reference="source-documentABC.txt"
+>           source_offset="100"
+>           source_length="1000"
+>  />
+>  ...
+></document>
+
+To measure the performance of your plagiarism detection method, download a [Python 2 script](http://www.uni-weimar.de/medien/webis/events/pan-09/pan09-code/pan09-plagiarism-detection-performance-measures.py) provided by the committee of PAN 2011 competition to self-evaluate the output of plagiarism detection method. Then, run the following command from *Command Prompt* (Windows) or *Terminal* (Linux, Mac) of your computer:
+
+```
+python pan09-plagiarism-detection-performance-measures.py -p [lokasi direktori kunci jawaban disimpan] -d [lokasi direktori keluaran metode deteksi plagiarisme disimpan]
+```
+
+To view help, run this command:
+
+```
+python pan09-plagiarism-detection-performance-measures.py -h
+```
+
+An example of successful script execution output is as follow:
+
+```
+Reading /home/felikjunvianto/suspicious-documents
+Reading /home/felikjunvianto/detection-results
+Processing... (this may take a while)
+Plagdet Score 0.47446724569483506
+Recall 0.5761431431431431
+Precision 0.8546522222222222
+Granularity 1.7333333333333333
+```
+
+The performance evaluation of plagiarism detection method is presented in 4 metrics; *Plagdet Score*, *Recall*, *Precision*, and *Granularity*. More detailed explanations about these four metrics can be found [here](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=2).
 
 ## License ##
 
