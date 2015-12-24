@@ -1,11 +1,21 @@
 # README #
 
-* [Versi Bahasa Indonesia](#versi-bahasa-indonesia)
-* [English Version](#english-version)
+- [Versi Bahasa Indonesia](#versi-bahasa-indonesia)
+  - [Pendahuluan](#pendahuluan)
+  - [Pengumpulan dan Prapemrosesan Dokumen](#pengumpulan-dan-prapemrosesan-dokumen)
+  - [Panduan Penggunaan](#panduan-penggunaan)
+  - [Lisensi](#lisensi)
+  - [Kontak](#kontak)
+- [English Version](#english-version)
+  - [Introduction](#introduction)
+  - [Document Curating and Preprocessing](#document-curating-and-preprocessing)
+  - [How to Use](#how-to-use)
+  - [License](#license)
+  - [Contact](#contact)
 
 # Versi Bahasa Indonesia #
 
-## Perkenalan ##
+## Pendahuluan ##
 
 Korpus ini terdiri dari kumpulan dokumen dalam Bahasa Indonesia yang telah disisipkan beberapa kasus plagiarisme buatan. Korpus ini disusun dan digunakan sebagai bahan pengujian dalam tugas akhir saya yang berjudul ["Perbaikan Komponen Candidate Retrieval untuk Meningkatkan Kinerja Metode Deteksi Plagiarisme Eksternal pada Dokumen Berbahasa Indonesia"](http://lontar.cs.ui.ac.id/Lontar/opac/themes/ng/detail.jsp?id=42843&lokasi=lokal).
 
@@ -19,15 +29,15 @@ Kumpulan dokumen dalam korpus ini didapat dari sumber berikut.
 
 - terjemahan artikel PAN CLEF,
 - blog-blog berbahasa Indonesia,
-- korpus lain (artikel Kompas & ulasan film),
-- artikel pilihan Wikipedia bahasa Indonesia, dan
-- novel Indonesia (lokal & terjemahan).
+- korpus-korpus lain (artikel [Kompas](http://www.kompas.com/) & ulasan film),
+- [artikel pilihan Wikipedia bahasa Indonesia](https://id.wikipedia.org/wiki/Wikipedia:Artikel_pilihan), dan
+- novel berbahasa Indonesia (lokal & terjemahan).
 
 Setelah dikumpulkan, dilakukan tahap prapemrosesan pada setiap dokumen dengan langkah-langkah berikut.
 
 - melakukan normalisasi agar setiap baris pada dokumen mengandung maksimal 100 karakter.
 - menghilangkan spasi berlebih di akhir paragraf, antar paragraf, dan sebelum tanda baca.
-- membuang dan mengganti beberapa karakter non-ASCII menjadi karakter ASCII, contohnya karakter ” pada isi dokumen diganti menjadi karakter ".
+- mengganti beberapa karakter non-ASCII menjadi karakter ASCII, contohnya karakter `”` pada isi dokumen diganti menjadi karakter `"`.
 
 Statistik dari korpus plagiarisme bahasa Indonesia ini adalah sebagai berikut.
 
@@ -44,10 +54,12 @@ Statistik dari korpus plagiarisme bahasa Indonesia ini adalah sebagai berikut.
 - Kasus plagiarisme buatan = **49**
 	- salinan utuh (`no obfuscation`) = **11**
 	- pengocokan urutan kata secara acak (`random-shuffling`) = **14**
-	- penggantian dengan padanan kata (`semantic-variation`) = **18**
+	- penggantian kata dengan sinonim, antonim, hipernim, atau hiponim secara acak (`semantic-variation`) = **18**
 	- pengocokan kata dengan mempertahankan urutan POS/*part-of-speech* (`pos-preserving`) = **6**
 
 ## Panduan Penggunaan ##
+
+[Under Construction]
 
 ## Lisensi ##
 
@@ -71,7 +83,41 @@ This corpus consists of 65 Indonesian documents and a total of 94 artificial pla
 
 ## Document Curating and Preprocessing ##
 
+Documents for this corpus were acquired from following sources.
+
+- translation of PAN CLEF articles,
+- Indonesian blogs,
+- other corpora ([Kompas](http://www.kompas.com/) articles & film reviews),
+- [featured articles from Wikipedia bahasa Indonesia](https://id.wikipedia.org/wiki/Wikipedia:Artikel_pilihan), and
+- novels in bahasa Indonesia (local & translated).
+
+After the documents were collected, each document was preprocessed with following steps.
+
+- performing normalization so that each line of the document contains maximum of 100 characters.
+- removing extra space characters at the end of paragraph, in-between paragraphs, and before any punctuation marks.
+- replacing some non-ASCII characters with its ASCII counterpart, for example replacing `”` character inside document with `"` character.
+
+Statistics of this plagiarism corpus in bahasa Indonesia are as follows.
+
+**Document statistics**
+
+- Source documents = **30**
+- Suspicious documents = **35**
+  - with plagiarism cases = **20**
+  - witout plagiarism cases = **15**
+
+**Plagiarism case statistics**
+
+- Simulated plagiarism cases = **45**
+- Artificial plagiarism cases = **49**
+	- verbatim copy (`no obfuscation`) = **11**
+	- shuffling word order at random (`random-shuffling`) = **14**
+	- replacing words with their synonym, antonym, hypernym, or hyponym at random (`semantic-variation`) = **18**
+	- shuffling word order while preserving their POS/*part-of-speech* ordering (`pos-preserving`) = **6**
+
 ## How to Use ##
+
+[Under Construction]
 
 ## License ##
 
