@@ -222,7 +222,7 @@ Your plagiarism detection method must output the detection results in XML-format
 To measure the performance of your plagiarism detection method, download a [Python 2 script](http://www.uni-weimar.de/medien/webis/events/pan-09/pan09-code/pan09-plagiarism-detection-performance-measures.py) provided by the committee of PAN 2011 competition to self-evaluate the output of plagiarism detection method. Then, run the following command from *Command Prompt* (Windows) or *Terminal* (Linux, Mac) of your computer:
 
 ```
-python pan09-plagiarism-detection-performance-measures.py -p [lokasi direktori kunci jawaban disimpan] -d [lokasi direktori keluaran metode deteksi plagiarisme disimpan]
+python pan09-plagiarism-detection-performance-measures.py -p [location of directory where answer keys are saved] -d [location of directory where outputs of plagiarism detection method are saved]
 ```
 
 To view help, run this command:
