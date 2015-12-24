@@ -21,7 +21,7 @@ Korpus ini terdiri dari kumpulan dokumen dalam Bahasa Indonesia yang telah disis
 
 Korpus ini disusun dengan mengikuti format korpus kompetisi deteksi plagiarisme [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). Kasus plagiarisme buatan disusun dengan mengikuti pedoman yang dijabarkan dalam publikasi ["An Evaluation Framework for Plagiarisme Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) oleh Potthast et. al (2011).
 
-Korpus ini berisi 65 dokumen berbahasa Indonesia dengan total 94 kasus plagiarisme buatan.
+Korpus ini berisi 65 dokumen berbahasa Indonesia dalam teks biasa (*plaintext*) dengan total 94 kasus plagiarisme buatan.
 
 ## Pengumpulan dan Prapemrosesan Dokumen ##
 
@@ -59,7 +59,70 @@ Statistik dari korpus plagiarisme bahasa Indonesia ini adalah sebagai berikut.
 
 ## Panduan Penggunaan ##
 
-[Under Construction]
+Untuk menggunakan korpus ini sebagai kasus uji metode deteksi plagiarisme yang sedang Anda kembangkan, Anda cukup meng-[*clone*](https://help.github.com/articles/which-remote-url-should-i-use/) atau [mengunduh](https://github.com/felikjunvianto/korpus-plagiarisme-indonesia/archive/master.zip) repositori ini ke komputer pribadi Anda. Anda kemudian akan mendapati isi dari korpus ini, yaitu dua buah direktori sebagai berikut.
+
+- `source-documents/`: berisi dokumen-dokumen yang **dicurigai diplagiat**. Semua kasus plagiarisme buatan dalam korpus ini dijamin memplagiat potongan teks dalam dokumen yang terdapat pada direktori ini.
+- `suspicious-documents/`: direktori berisi dokumen-dokumen yang **dicurigai memplagiat** atau **mengandung bagian teks yang memplagiat**.
+
+Untuk setiap dokumen mencurigakan dalam direktori `suspicious-documents/`, disediakan "kunci jawaban" dalam format XML yang berisi informasi mengenai potongan teks mana yang memplagiat (jika ada) beserta potongan teks mana yang diplagiat. Sebagai contoh, berikut adalah potongan isi dari berkas `suspicious-document-00014.xml` (kunci jawaban untuk dokumen mencurigakan `suspicious-document-00014.txt`):
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<document reference="suspicious-document00014.txt">
+	<feature name="plagiarism" type="simulated" this_offset="1331" this_length="1117" source_reference="source-document00022.txt" source_offset="58120" source_length="2237"/>
+	<feature name="plagiarism" type="simulated" this_offset="3153" this_length="347" source_reference="source-document00026.txt" source_offset="100621" source_length="365"/>
+...
+```
+
+Setiap `<feature>` dalam berkas `suspicious-document-00014.xml` menyatakan sebuah kasus plagiarisme. Lokasi dari bagian teks yang memplagiat dan bagian teks yang diplagiat dapat diturunkan dari atribut `<feature>` berikut:
+
+- `this_offset`: menyatakan posisi karakter pertama dari bagian teks yang memplagiat dalam dokumen mencurigakan, dihitung dari awal dokumen (*zero-based*).
+- `this_length`: menyatakan panjang bagian teks yang memplagiat pada kasus plagiarisme ini.
+- `source_reference`: menyatakan nama dokumen sumber yang diplagiat pada kasus plagiarisme ini.
+- `source_offset`: menyatakan posisi karakter pertama dari bagian teks yang diplagiat dalam dokumen sumber, dihitung dari awal dokumen (*zero-based*).
+- `source_length`: menyatakan panjang bagian teks yang diplagiat pada kasus plagiarisme ini.
+
+Hasil deteksi metode pendeteksi plagiarisme Anda harus dicetak dalam berkas format XML yang memenuhi [skema XML berikut](http://www.uni-weimar.de/medien/webis/corpora/corpus-pan-pc-09/document.xsd), atau dengan kata lain, jika mengutip penjelasan dari [laman kompetisi deteksi plagiarisme eksternal PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html):
+
+> For each suspicious document `suspicious-documentXYZ.txt` found in the evaluation corpora, your plagiarism detector shall output an XML file `suspicious-documentXYZ.xml` which contains meta information about all plagiarism cases detected within:
+>
+>```xml
+><document reference="suspicious-documentXYZ.txt">
+>  <feature name="detected-plagiarism"
+>           this_offset="5"
+>           this_length="1000"
+>           source_reference="source-documentABC.txt"
+>           source_offset="100"
+>           source_length="1000"
+>  />
+>  ...
+></document>
+
+Untuk mengukur kinerja dari metode pendeteksi plagiarisme Anda, unduh [*script Python 2*](http://www.uni-weimar.de/medien/webis/events/pan-09/pan09-code/pan09-plagiarism-detection-performance-measures.py) yang disediakan oleh panitia perlombaan PAN 2011 untuk mengevaluasi hasil keluaran metode deteksi plagiarisme secara mandiri. Kemudian, jalankan perintah berikut dari *Command Prompt* (Windows) atau *Terminal* (Linux, Mac) komputer Anda:
+
+```
+python pan09-plagiarism-detection-performance-measures.py -p [lokasi direktori kunci jawaban disimpan] -d [lokasi direktori keluaran metode deteksi plagiarisme disimpan]
+```
+
+Untuk melihat bantuan, jalankan perintah berikut:
+
+```
+python pan09-plagiarism-detection-performance-measures.py -h
+```
+
+Berikut adalah contoh keluaran eksekusi *script* yang berhasil:
+
+```
+Reading /home/felikjunvianto/suspicious-documents
+Reading /home/felikjunvianto/detection-results
+Processing... (this may take a while)
+Plagdet Score 0.47446724569483506
+Recall 0.5761431431431431
+Precision 0.8546522222222222
+Granularity 1.7333333333333333
+```
+
+Evaluasi kinerja metode deteksi plagiarisme tersebut disajikan dalam 4 metrik; *Plagdet Score*, *Recall*, *Precision*, serta *Granularity*. Pembahasan lebih detil mengenai keempat metrik tersebut dapat ditemukan [di sini](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=2).
 
 ## Lisensi ##
 
@@ -79,7 +142,7 @@ This corpus consists of documents in Bahasa Indonesia which has been inserted wi
 
 This corpus was compiled while following the format of plagiarism detection competition corpus of [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). The inserted artificial plagiarism cases were compiled while following the outlined guide in ["An Evaluation Framework for Plagiarisme Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) publication by Potthast et. al (2011).
 
-This corpus consists of 65 Indonesian documents and a total of 94 artificial plagiarism cases.
+This corpus consists of 65 Indonesian plaintext documents and a total of 94 artificial plagiarism cases.
 
 ## Document Curating and Preprocessing ##
 
@@ -110,10 +173,10 @@ Statistics of this plagiarism corpus in bahasa Indonesia are as follows.
 
 - Simulated plagiarism cases = **45**
 - Artificial plagiarism cases = **49**
-	- verbatim copy (`no obfuscation`) = **11**
-	- shuffling word order at random (`random-shuffling`) = **14**
-	- replacing words with their synonym, antonym, hypernym, or hyponym at random (`semantic-variation`) = **18**
-	- shuffling word order while preserving their POS/*part-of-speech* ordering (`pos-preserving`) = **6**
+  - verbatim copy (`no obfuscation`) = **11**
+  - shuffling word order at random (`random-shuffling`) = **14**
+  - replacing words with their synonym, antonym, hypernym, or hyponym at random (`semantic-variation`) = **18**
+  - shuffling word order while preserving their POS/*part-of-speech* ordering (`pos-preserving`) = **6**
 
 ## How to Use ##
 
