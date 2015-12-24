@@ -128,7 +128,7 @@ Evaluasi kinerja metode deteksi plagiarisme tersebut disajikan dalam 4 metrik; *
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
-Korpus ini didaftarkan di bawah lisensi Creative Commons Attribution 4.0 International. Untuk melihat salinan dari lisensi ini, kunjungi laman http://creativecommons.org/licenses/by/4.0/.
+Korpus ini didaftarkan di bawah lisensi **Creative Commons Attribution 4.0 International**. Untuk melihat salinan dari lisensi ini, kunjungi laman http://creativecommons.org/licenses/by/4.0/.
 
 ## Kontak ##
 
@@ -249,7 +249,7 @@ The performance evaluation of plagiarism detection method is presented in 4 metr
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
-This corpus is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+This corpus is licensed under the **Creative Commons Attribution 4.0 International License**. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
 
 ## Contact ##
 
