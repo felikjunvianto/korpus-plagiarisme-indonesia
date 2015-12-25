@@ -21,7 +21,7 @@ Korpus ini terdiri dari kumpulan dokumen dalam Bahasa Indonesia yang telah disis
 
 Korpus ini disusun dengan mengikuti format korpus kompetisi deteksi plagiarisme [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). Kasus plagiarisme buatan disusun dengan mengikuti pedoman yang dijabarkan dalam publikasi ["An Evaluation Framework for Plagiarism Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) oleh Potthast et. al (2011).
 
-Korpus ini berisi 65 dokumen berbahasa Indonesia dalam teks biasa (*plaintext*) dengan total 94 kasus plagiarisme buatan.
+Korpus ini berisi 65 dokumen berbahasa Indonesia dalam teks biasa (*plaintext*) dengan total 94 kasus plagiarisme yang disimulasikan dan buatan.
 
 ## Pengumpulan dan Prapemrosesan Dokumen ##
 
@@ -30,7 +30,7 @@ Kumpulan dokumen dalam korpus ini didapat dari sumber berikut.
 - terjemahan artikel PAN CLEF,
 - blog-blog berbahasa Indonesia,
 - korpus-korpus lain (artikel [Kompas](http://www.kompas.com/) & ulasan film),
-- [artikel pilihan Wikipedia bahasa Indonesia](https://id.wikipedia.org/wiki/Wikipedia:Artikel_pilihan), dan
+- [artikel pilihan Wikipedia Bahasa Indonesia](https://id.wikipedia.org/wiki/Wikipedia:Artikel_pilihan), dan
 - novel berbahasa Indonesia (lokal & terjemahan).
 
 Setelah dikumpulkan, dilakukan tahap prapemrosesan pada setiap dokumen dengan langkah-langkah berikut.
@@ -39,7 +39,7 @@ Setelah dikumpulkan, dilakukan tahap prapemrosesan pada setiap dokumen dengan la
 - menghilangkan spasi berlebih di akhir paragraf, antar paragraf, dan sebelum tanda baca.
 - mengganti beberapa karakter non-ASCII menjadi karakter ASCII, contohnya karakter `”` pada isi dokumen diganti menjadi karakter `"`.
 
-Statistik dari korpus plagiarisme bahasa Indonesia ini adalah sebagai berikut.
+Statistik dari korpus plagiarisme Bahasa Indonesia ini adalah sebagai berikut.
 
 **Statistik dokumen**
 
@@ -142,7 +142,7 @@ This corpus consists of documents in Bahasa Indonesia which has been inserted wi
 
 This corpus was compiled while following the format of plagiarism detection competition corpus of [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). The inserted artificial plagiarism cases were compiled while following the outlined guide in ["An Evaluation Framework for Plagiarism Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) publication by Potthast et. al (2011).
 
-This corpus consists of 65 Indonesian plaintext documents and a total of 94 artificial plagiarism cases.
+This corpus consists of 65 Indonesian plaintext documents and a total of 94 simulated and artificial plagiarism cases.
 
 ## Document Curating and Preprocessing ##
 
@@ -151,8 +151,8 @@ Documents for this corpus were acquired from following sources.
 - translation of PAN CLEF articles,
 - Indonesian blogs,
 - other corpora ([Kompas](http://www.kompas.com/) articles & film reviews),
-- [featured articles from Wikipedia bahasa Indonesia](https://id.wikipedia.org/wiki/Wikipedia:Artikel_pilihan), and
-- novels in bahasa Indonesia (local & translated).
+- [featured articles from Wikipedia Bahasa Indonesia](https://id.wikipedia.org/wiki/Wikipedia:Artikel_pilihan), and
+- novels in Bahasa Indonesia (local & translated).
 
 After the documents were collected, each document was preprocessed with following steps.
 
