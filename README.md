@@ -185,7 +185,7 @@ To use this corpus as test cases for plagiarism detection method you are current
 - `source-documents/`: contains documents which are **suspected to be plagiarized**. All artificial plagiarism cases in this corpus are guaranteed to plagiarize passage in document from this directory.
 - `suspicious-documents/`: contains documents which are **suspected to plagiarize** or **contain plagiarizing text**.
 
-For every suspicious document in `suspicious-documents/` directory, a "answer key" has been provided in XML format, containing information regarding which part of text that is plagiarizing (if any) along with which part of text it plagiarized. For example, the following is snippet of of file `suspicious-document-00014.xml` (answer key for suspicious document `suspicious-document-00014.txt`):
+For every suspicious document in `suspicious-documents/` directory, an "answer key" has been provided in XML format, containing information regarding which part of text that is plagiarizing (if any) along with which part of text it plagiarized. For example, the following is snippet of of file `suspicious-document-00014.xml` (answer key for suspicious document `suspicious-document-00014.txt`):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
