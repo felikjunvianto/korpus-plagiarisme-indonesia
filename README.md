@@ -19,7 +19,7 @@
 
 Korpus ini terdiri dari kumpulan dokumen dalam Bahasa Indonesia yang telah disisipkan beberapa kasus plagiarisme buatan. Korpus ini disusun dan digunakan sebagai bahan pengujian dalam tugas akhir saya yang berjudul ["Perbaikan Komponen Candidate Retrieval untuk Meningkatkan Kinerja Metode Deteksi Plagiarisme Eksternal pada Dokumen Berbahasa Indonesia"](http://lontar.cs.ui.ac.id/Lontar/opac/themes/ng/detail.jsp?id=42843&lokasi=lokal).
 
-Korpus ini disusun dengan mengikuti format korpus kompetisi deteksi plagiarisme [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). Kasus plagiarisme buatan disusun dengan mengikuti pedoman yang dijabarkan dalam publikasi ["An Evaluation Framework for Plagiarisme Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) oleh Potthast et. al (2011).
+Korpus ini disusun dengan mengikuti format korpus kompetisi deteksi plagiarisme [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). Kasus plagiarisme buatan disusun dengan mengikuti pedoman yang dijabarkan dalam publikasi ["An Evaluation Framework for Plagiarism Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) oleh Potthast et. al (2011).
 
 Korpus ini berisi 65 dokumen berbahasa Indonesia dalam teks biasa (*plaintext*) dengan total 94 kasus plagiarisme buatan.
 
@@ -140,7 +140,7 @@ Jika Anda memiliki saran, masukan, dan/atau pertanyaan, silakan langsung [membua
 
 This corpus consists of documents in Bahasa Indonesia which has been inserted with some artificial plagiarism cases. This corpus was compiled and used as test case in my undergraduate thesis which titled ["Improvement on Candidate Retrieval Component to Enhance Performance of External Plagiarism Detection Method on Indonesian Documents"](http://lontar.cs.ui.ac.id/Lontar/opac/themes/ng/detail.jsp?id=42843&lokasi=lokal).
 
-This corpus was compiled while following the format of plagiarism detection competition corpus of [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). The inserted artificial plagiarism cases were compiled while following the outlined guide in ["An Evaluation Framework for Plagiarisme Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) publication by Potthast et. al (2011).
+This corpus was compiled while following the format of plagiarism detection competition corpus of [PAN 2011](http://www.uni-weimar.de/medien/webis/events/pan-11/pan11-web/plagiarism-detection.html). The inserted artificial plagiarism cases were compiled while following the outlined guide in ["An Evaluation Framework for Plagiarism Evaluation"](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=4) publication by Potthast et. al (2011).
 
 This corpus consists of 65 Indonesian plaintext documents and a total of 94 artificial plagiarism cases.
 
@@ -183,7 +183,7 @@ Statistics of this plagiarism corpus in bahasa Indonesia are as follows.
 To use this corpus as test cases for plagiarism detection method you are currently developing, you only need to [*clone*](https://help.github.com/articles/which-remote-url-should-i-use/) or [download](https://github.com/felikjunvianto/korpus-plagiarisme-indonesia/archive/master.zip) this repository to your computer. You then will find the content of this corpus, which are two directories as follow.
 
 - `source-documents/`: contains documents which are **suspected to be plagiarized**. All artificial plagiarism cases in this corpus are guaranteed to plagiarize passage in document from this directory.
-- `suspicious-documents/`: contains documents which are **suspected to plagiarize** or **containing plagiarizing text**.
+- `suspicious-documents/`: contains documents which are **suspected to plagiarize** or **contain plagiarizing text**.
 
 For every suspicious document in `suspicious-documents/` directory, a "answer key" has been provided in XML format, containing information regarding which part of text that is plagiarizing (if any) along with which part of text it plagiarized. For example, the following is snippet of of file `suspicious-document-00014.xml` (answer key for suspicious document `suspicious-document-00014.txt`):
 
