@@ -4,13 +4,11 @@
   - [Pendahuluan](#pendahuluan)
   - [Pengumpulan dan Prapemrosesan Dokumen](#pengumpulan-dan-prapemrosesan-dokumen)
   - [Panduan Penggunaan](#panduan-penggunaan)
-  - [Lisensi](#lisensi)
   - [Kontak](#kontak)
 - [English Version](#english-version)
   - [Introduction](#introduction)
   - [Document Curating and Preprocessing](#document-curating-and-preprocessing)
   - [How to Use](#how-to-use)
-  - [License](#license)
   - [Contact](#contact)
 
 # Versi Bahasa Indonesia #
@@ -124,11 +122,13 @@ Granularity 1.7333333333333333
 
 Evaluasi kinerja metode deteksi plagiarisme tersebut disajikan dalam 4 metrik; *Plagdet Score*, *Recall*, *Precision*, serta *Granularity*. Pembahasan lebih detil mengenai keempat metrik tersebut dapat ditemukan [di sini](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=2).
 
+<!--- Commented for now; on progress of asking permission from original articles authors
 ## Lisensi ##
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
 Korpus ini didaftarkan di bawah lisensi **Creative Commons Attribution 4.0 International**. Untuk melihat salinan dari lisensi ini, kunjungi laman http://creativecommons.org/licenses/by/4.0/.
+--->
 
 ## Kontak ##
 
@@ -245,11 +245,13 @@ Granularity 1.7333333333333333
 
 The performance evaluation of plagiarism detection method is presented in 4 metrics; *Plagdet Score*, *Recall*, *Precision*, and *Granularity*. More detailed explanations about these four metrics can be found [here](http://www.uni-weimar.de/medien/webis/publications/papers/stein_2010p.pdf#page=2).
 
+<!--- Commented for now; on progress of asking permission from original articles authors
 ## License ##
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
 This corpus is licensed under the **Creative Commons Attribution 4.0 International License**. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+--->
 
 ## Contact ##
 
