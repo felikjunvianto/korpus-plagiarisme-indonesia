@@ -420,7 +420,7 @@ class TestPerfMeasures(unittest.TestCase):
 def usage():
     """Prints command line usage manual."""
     print """\
-Usage: perfmeasures.py [options]
+Usage: pan09-plagiarism-detection-performance-measures.py [options]
 
 Options:
       --micro      Compute micro-averaged recall and precision,
